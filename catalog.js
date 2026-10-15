@@ -1,4 +1,29 @@
-const money=n=>n===null||n===''?'Price on request':new Intl.NumberFormat('en-US',{style:'currency',currency:'EUR',maximumFractionDigits:2}).format(Number(n));const e=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const url=s=>{try{let u=new URL(s,document.baseURI);return ['https:','http:'].includes(u.protocol)?u.href:''}catch{return ''}};let artworks=[],shown=[];function render(){shown=artworks.filter(r=>r.visible==='yes');document.querySelector('#grid').innerHTML=shown.map(r=>`<article class="art">${url(r.image_url)?`<img loading="lazy" src="${e(url(r.image_url))}" alt="${e(r.title)}" onerror="this.replaceWith(Object.assign(document.createElement('p'),{textContent:'Image unavailable'}))">`:'<p>Image to follow</p>'}<h2>${e(r.title||r.sku)}</h2><p class="meta">${e(r.sku)} · ${e(r.medium)}<br>${e(r.size_unframed)}${r.size_unframed?' inches, unframed':''}${r.size_framed?'<br>'+e(r.size_framed)+' inches, framed':''}</p><p class="price">${money(r.price_eur)} EUR</p>${url(r.product_url)?`<a href="${e(url(r.product_url))}">View artwork on Clare’s website ↗</a>`:''}</article>`).join('');}
+
+const cleanTitle=title=>String(title??'').replace(/\.(?:jpe?g|png|gif|webp|tiff?|bmp|svg|avif)\b/gi,'').trim();
+const compareSKU=(a,b)=>a.sku.localeCompare(b.sku,'en',{numeric:true,sensitivity:'base'});
+function unframedArea(size){
+ const match=String(size??'').trim().match(/^(\d+(?:\.\d+)?)\s*[x×]\s*(\d+(?:\.\d+)?)\s*(?:inches|in|")?$/i);
+ if(!match)return null;
+ const area=Number(match[1])*Number(match[2]);
+ return Number.isFinite(area)&&area>0?area:null;
+}
+function compareValues(a,b,direction){
+ const missingA=a===null||!Number.isFinite(a),missingB=b===null||!Number.isFinite(b);
+ if(missingA||missingB)return Number(missingA)-Number(missingB);
+ return direction*(a-b);
+}
+function sortArtworks(rows,mode){
+ const result=[...rows];
+ if(mode==='original')return result;
+ return result.sort((a,b)=>{
+  if(mode==='sku')return compareSKU(a,b);
+  if(mode==='title')return cleanTitle(a.title).localeCompare(cleanTitle(b.title),'en',{sensitivity:'base'})||compareSKU(a,b);
+  if(mode==='price-asc'||mode==='price-desc')return compareValues(a.price_eur,b.price_eur,mode==='price-asc'?1:-1)||compareSKU(a,b);
+  if(mode==='area-asc'||mode==='area-desc')return compareValues(unframedArea(a.size_unframed),unframedArea(b.size_unframed),mode==='area-asc'?1:-1)||compareSKU(a,b);
+  return 0;
+ });
+}
+const money=n=>n===null||n===''?'Price on request':new Intl.NumberFormat('en-US',{style:'currency',currency:'EUR',maximumFractionDigits:2}).format(Number(n));const e=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const url=s=>{try{let u=new URL(s,document.baseURI);return ['https:','http:'].includes(u.protocol)?u.href:''}catch{return ''}};let artworks=[],shown=[];function render(){shown=sortArtworks(artworks.filter(r=>r.visible==='yes'),document.querySelector('#catalog-sort').value);document.querySelector('#grid').innerHTML=shown.map(r=>`<article class="art">${url(r.image_url)?`<img loading="lazy" src="${e(url(r.image_url))}" alt="${e(r.title)}" onerror="this.replaceWith(Object.assign(document.createElement('p'),{textContent:'Image unavailable'}))">`:'<p>Image to follow</p>'}<h2>${e(r.title||r.sku)}</h2><p class="meta">${e(r.sku)} · ${e(r.medium)}<br>${e(r.size_unframed)}${r.size_unframed?' inches, unframed':''}${r.size_framed?'<br>'+e(r.size_framed)+' inches, framed':''}</p><p class="price">${money(r.price_eur)} EUR</p>${url(r.product_url)?`<a href="${e(url(r.product_url))}">View artwork on Clare’s website ↗</a>`:''}</article>`).join('');}
 async function printList(){
  const w=window.open('','_blank');
  if(!w){alert('Allow pop-ups to open the printable price list.');return;}
@@ -30,8 +55,9 @@ async function loadCatalog(){
   const rows=await response.json();
   if(!Array.isArray(rows)||rows.some(r=>typeof r.sku!=='string'||typeof r.title!=='string'||!['yes','no'].includes(r.visible)||!['price_usd','price_eur'].every(key=>r[key]===null||typeof r[key]==='number'&&Number.isFinite(r[key])&&r[key]>=0)))throw Error('Please check artwork data.');
   if(new Set(rows.map(r=>r.sku.toUpperCase())).size!==rows.length)throw Error('Duplicate artwork SKU.');
-  artworks=rows;render();document.querySelector('#print-button').disabled=false;
+  artworks=rows.map(r=>({...r,title:cleanTitle(r.title)}));render();document.querySelector('#print-button').disabled=false;document.querySelector('#catalog-sort').disabled=false;
  }catch(error){grid.textContent='Artwork list unavailable. Please try again shortly.';console.error(error)}
 }
 document.querySelector('#print-button').addEventListener('click',printList);
+document.querySelector('#catalog-sort').addEventListener('change',render);
 loadCatalog();
