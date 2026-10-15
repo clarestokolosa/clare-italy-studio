@@ -682,5 +682,65 @@
     "image_url": "./images/CS526.jpg",
     "product_url": "https://clarestokolosa.com/product/foutain-with-light-post-in-park-cortona-grande/",
     "visible": "yes"
+  },
+  {
+    "sku": "CS314",
+    "title": "Inside Out PIazza Signorelli",
+    "price_usd": 3100,
+    "price_eur": 2765.89,
+    "medium": "Watercolor",
+    "size_unframed": "42 x 33",
+    "size_framed": "43 x 46",
+    "image_url": "./images/CS314.jpg",
+    "product_url": "https://clarestokolosa.com/product/inside-out-piazza-signorelli/",
+    "visible": "yes"
+  },
+  {
+    "sku": "CS256",
+    "title": "Italian Breakfast",
+    "price_usd": 600,
+    "price_eur": 535.34,
+    "medium": "Watercolor",
+    "size_unframed": "17 x 13",
+    "size_framed": "21 x 17",
+    "image_url": "./images/CS256.jpg",
+    "product_url": "https://clarestokolosa.com/product/italian-lunch/",
+    "visible": "yes"
+  },
+  {
+    "sku": "CS413",
+    "title": "Cortona View from the Piazza and Lago Trasimeno",
+    "price_usd": 1100,
+    "price_eur": 981.45,
+    "medium": "Watercolor",
+    "size_unframed": "22.25 x 33.25",
+    "size_framed": "28 x 36",
+    "image_url": "./images/CS413.jpg",
+    "product_url": "https://clarestokolosa.com/product/cortona-view-from-the-piazza-and-lago-trasimeno/",
+    "visible": "yes"
+  },
+  {
+    "sku": "CS296",
+    "title": "Trastevere, Rome",
+    "price_usd": 3500,
+    "price_eur": 3122.77,
+    "medium": "Watercolor",
+    "size_unframed": "40 x 30",
+    "size_framed": "43  x 32",
+    "image_url": "./images/CS296.jpg",
+    "product_url": "https://clarestokolosa.com/product/trastevere-rome/",
+    "visible": "yes"
+  },
+  {
+    "sku": "CS414",
+    "title": "Santa Maria Nuova Cortona",
+    "price_usd": 900,
+    "price_eur": 803,
+    "medium": "Watercolor",
+    "size_unframed": "15 x22",
+    "size_framed": "22.5 x 29.5",
+    "image_url": "./images/CS414.jpg",
+    "product_url": "https://clarestokolosa.com/product/santa-maria-nuova-cortona/",
+    "visible": "yes"
   }
 ]
