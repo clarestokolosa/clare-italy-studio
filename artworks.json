@@ -37,15 +37,15 @@
   },
   {
     "sku": "CS457",
-    "title": "Cortona  Pitcher Brocca Toscana ",
+    "title": "Cortona Pitcher Brocca Toscana",
     "price_usd": 171,
     "price_eur": 176.51,
     "medium": "Watercolor",
     "size_unframed": "11 x 8",
     "size_framed": "15 x 11",
-    "image_url": "https://clarestokolosa.com/wp-content/uploads/2025/10/Brocca-Toscana-No-Frame-2025-Clare-Stokolosa-copy.jpg",
+    "image_url": "./images/CS457.jpg",
     "product_url": "https://clarestokolosa.com/product/cortona-pitcher-brocca-toscana/",
-    "visible": "no"
+    "visible": "yes"
   },
   {
     "sku": "CS480",
@@ -339,7 +339,7 @@
     "sku": "CS465",
     "title": "Clock Tower in Cortona",
     "price_usd": 490,
-    "price_eur": 505.0,
+    "price_eur": 505,
     "medium": "Watercolor",
     "size_unframed": "9 x 12",
     "size_framed": "13 x 16",
@@ -567,7 +567,7 @@
     "sku": "CS578",
     "title": "Path to Le Celle Cortona",
     "price_usd": 515,
-    "price_eur": 505.0,
+    "price_eur": 505,
     "medium": "Watercolor",
     "size_unframed": "9 x 12",
     "size_framed": "11.75 x 15.75",
@@ -722,7 +722,7 @@
   {
     "sku": "CS003",
     "title": "Cielo fra Palazzo e Cipresso",
-    "price_usd": 617.0,
+    "price_usd": 617,
     "price_eur": 635.42,
     "medium": "Watercolor",
     "size_unframed": "17 x 13",
@@ -734,7 +734,7 @@
   {
     "sku": "CS009",
     "title": "Pranzo a Perugia",
-    "price_usd": 561.0,
+    "price_usd": 561,
     "price_eur": 577.56,
     "medium": "Watercolor",
     "size_unframed": "17 x 13",
@@ -746,7 +746,7 @@
   {
     "sku": "CS011",
     "title": "Sosta Mattutino",
-    "price_usd": 477.0,
+    "price_usd": 477,
     "price_eur": 491.27,
     "medium": "Watercolor",
     "size_unframed": "17 x 13",
@@ -758,7 +758,7 @@
   {
     "sku": "CS020",
     "title": "Passeggiando per Cortona",
-    "price_usd": 2822.0,
+    "price_usd": 2822,
     "price_eur": 2905.47,
     "medium": "Watercolor",
     "size_unframed": "42.5 x 31.25",
@@ -770,7 +770,7 @@
   {
     "sku": "CS028",
     "title": "Dalla Terrazza",
-    "price_usd": 590.0,
+    "price_usd": 590,
     "price_eur": 607.96,
     "medium": "Watercolor",
     "size_unframed": "16 x 20",
@@ -782,7 +782,7 @@
   {
     "sku": "CS029",
     "title": "Il Cammino Cortona",
-    "price_usd": 595.0,
+    "price_usd": 595,
     "price_eur": 612.87,
     "medium": "Watercolor",
     "size_unframed": "12 x 16",
@@ -794,7 +794,7 @@
   {
     "sku": "CS030",
     "title": "Nella Valle, Cortona",
-    "price_usd": 500.0,
+    "price_usd": 500,
     "price_eur": 514.81,
     "medium": "Watercolor",
     "size_unframed": "13.25 x 16.25",
@@ -806,7 +806,7 @@
   {
     "sku": "CS031",
     "title": "Piazza Gariboldi, Carbonia",
-    "price_usd": 600.0,
+    "price_usd": 600,
     "price_eur": 617.77,
     "medium": "Watercolor",
     "size_unframed": "18 x 22",
@@ -818,7 +818,7 @@
   {
     "sku": "CS032",
     "title": "Piazza Montalcino Tuscana",
-    "price_usd": 545.0,
+    "price_usd": 545,
     "price_eur": 560.89,
     "medium": "Watercolor",
     "size_unframed": "12 x 16",
@@ -830,8 +830,8 @@
   {
     "sku": "CS033",
     "title": "Sotto l’Ombra Cipressi Cortona",
-    "price_usd": 490.0,
-    "price_eur": 505.0,
+    "price_usd": 490,
+    "price_eur": 505,
     "medium": "Watercolor",
     "size_unframed": "16 x 12",
     "size_framed": "17.25 x 13.25",
@@ -842,7 +842,7 @@
   {
     "sku": "CS147",
     "title": "Majestic Horse large (Cavalli Regali di San Marco | Regal Horse of San Marco)",
-    "price_usd": 2800.0,
+    "price_usd": 2800,
     "price_eur": 2882.92,
     "medium": "Watercolor",
     "size_unframed": "40 x 29",
@@ -854,7 +854,7 @@
   {
     "sku": "CS149",
     "title": "Apertivo in front of the MAEC Museum",
-    "price_usd": 800.0,
+    "price_usd": 800,
     "price_eur": 823.69,
     "medium": "Watercolor",
     "size_unframed": "20 x 12",
@@ -866,7 +866,7 @@
   {
     "sku": "CS154",
     "title": "Quiet Lunch",
-    "price_usd": 850.0,
+    "price_usd": 850,
     "price_eur": 875.66,
     "medium": "Watercolor",
     "size_unframed": "20 x 13",
@@ -878,7 +878,7 @@
   {
     "sku": "CS161",
     "title": "The Tower in Cortona",
-    "price_usd": 850.0,
+    "price_usd": 850,
     "price_eur": 875.66,
     "medium": "Watercolor",
     "size_unframed": "20 x 13",
@@ -890,7 +890,7 @@
   {
     "sku": "CS182",
     "title": "From the Terrace",
-    "price_usd": 475.0,
+    "price_usd": 475,
     "price_eur": 489.31,
     "medium": "Watercolor",
     "size_unframed": "10 x 14",
@@ -902,7 +902,7 @@
   {
     "sku": "CS196",
     "title": "The Park in Cortona, Italy",
-    "price_usd": 475.0,
+    "price_usd": 475,
     "price_eur": 489.31,
     "medium": "Watercolor",
     "size_unframed": "10 x 14",
@@ -914,7 +914,7 @@
   {
     "sku": "CS199",
     "title": "Zingo, Sicily",
-    "price_usd": 475.0,
+    "price_usd": 475,
     "price_eur": 489.31,
     "medium": "Watercolor",
     "size_unframed": "10 x 14",
@@ -926,7 +926,7 @@
   {
     "sku": "CS203",
     "title": "In the Valley in Sicily",
-    "price_usd": 475.0,
+    "price_usd": 475,
     "price_eur": 489.31,
     "medium": "Watercolor",
     "size_unframed": "11 x 14",
@@ -938,7 +938,7 @@
   {
     "sku": "CS219",
     "title": "Farmhouse Garden, Tuscany",
-    "price_usd": 350.0,
+    "price_usd": 350,
     "price_eur": 360.85,
     "medium": "Watercolor",
     "size_unframed": "20 x 8",
@@ -950,7 +950,7 @@
   {
     "sku": "CS229",
     "title": "Italian View: Wash on the Line",
-    "price_usd": 375.0,
+    "price_usd": 375,
     "price_eur": 386.35,
     "medium": "Watercolor",
     "size_unframed": "12.25 x 16.1",
@@ -962,7 +962,7 @@
   {
     "sku": "CS242",
     "title": "Summer at the Poolside",
-    "price_usd": 300.0,
+    "price_usd": 300,
     "price_eur": 308.88,
     "medium": "Watercolor",
     "size_unframed": "8 x 20",
@@ -974,7 +974,7 @@
   {
     "sku": "CS245",
     "title": "View from the Piazza",
-    "price_usd": 700.0,
+    "price_usd": 700,
     "price_eur": 489.31,
     "medium": "Watercolor",
     "size_unframed": "15 x 22.5",
@@ -986,7 +986,7 @@
   {
     "sku": "CS273",
     "title": "Homes in the Hillside, Cortona, Italy",
-    "price_usd": 450.0,
+    "price_usd": 450,
     "price_eur": 463.82,
     "medium": "Watercolor",
     "size_unframed": "10 x 12",
@@ -998,7 +998,7 @@
   {
     "sku": "CS293",
     "title": "Cortona Table with Basket of Fruit and Basil Plant",
-    "price_usd": 400.0,
+    "price_usd": 400,
     "price_eur": 411.85,
     "medium": "Watercolor",
     "size_unframed": "14 x 10",
@@ -1010,7 +1010,7 @@
   {
     "sku": "CS294",
     "title": "Port Casamicciola, Eischia, Italy",
-    "price_usd": 450.0,
+    "price_usd": 450,
     "price_eur": 463.82,
     "medium": "Watercolor",
     "size_unframed": "10 x 14",
@@ -1022,7 +1022,7 @@
   {
     "sku": "CS295",
     "title": "View of Valley from Piazza Garibadi, Cortona",
-    "price_usd": 250.0,
+    "price_usd": 250,
     "price_eur": 257.89,
     "medium": "Watercolor",
     "size_unframed": "6 x 12",
@@ -1034,7 +1034,7 @@
   {
     "sku": "CS306",
     "title": "Cavallo in viola | Horse in violet",
-    "price_usd": 850.0,
+    "price_usd": 850,
     "price_eur": 875.66,
     "medium": "Watercolor",
     "size_unframed": "21 x 17",
@@ -1046,7 +1046,7 @@
   {
     "sku": "CS324",
     "title": "Regal horse in primary colors",
-    "price_usd": 850.0,
+    "price_usd": 850,
     "price_eur": 875.66,
     "medium": "Watercolor",
     "size_unframed": "17 x 13",
@@ -1058,7 +1058,7 @@
   {
     "sku": "CS327",
     "title": "Sicily Temple of Segesta",
-    "price_usd": 475.0,
+    "price_usd": 475,
     "price_eur": 489.31,
     "medium": "Watercolor",
     "size_unframed": "10 x 14",
@@ -1070,7 +1070,7 @@
   {
     "sku": "CS330",
     "title": "Visit Rome",
-    "price_usd": 900.0,
+    "price_usd": 900,
     "price_eur": 926.65,
     "medium": "Watercolor",
     "size_unframed": "18 x 24",
@@ -1082,7 +1082,7 @@
   {
     "sku": "CS338",
     "title": "Cortile",
-    "price_usd": 600.0,
+    "price_usd": 600,
     "price_eur": 617.77,
     "medium": "Watercolor",
     "size_unframed": "22 x 18",
@@ -1094,7 +1094,7 @@
   {
     "sku": "CS339",
     "title": "In the Mountainside of Cortona",
-    "price_usd": 400.0,
+    "price_usd": 400,
     "price_eur": 411.85,
     "medium": "Watercolor",
     "size_unframed": "10 x 12",
@@ -1106,7 +1106,7 @@
   {
     "sku": "CS340",
     "title": "Passeggiando Parterre Walk in the park",
-    "price_usd": 400.0,
+    "price_usd": 400,
     "price_eur": 411.85,
     "medium": "Watercolor",
     "size_unframed": "13.5 x 16.5",
@@ -1118,7 +1118,7 @@
   {
     "sku": "CS341",
     "title": "Valley in Cortona",
-    "price_usd": 400.0,
+    "price_usd": 400,
     "price_eur": 411.85,
     "medium": "Watercolor",
     "size_unframed": "13.25 x 16.5",
@@ -1130,7 +1130,7 @@
   {
     "sku": "CS345",
     "title": "Atlas Obscuras Outside of Rome",
-    "price_usd": 174.0,
+    "price_usd": 174,
     "price_eur": 179.45,
     "medium": "Watercolor",
     "size_unframed": "10 x 14",
@@ -1142,7 +1142,7 @@
   {
     "sku": "CS349",
     "title": "Cortona Valley",
-    "price_usd": 3100.0,
+    "price_usd": 3100,
     "price_eur": 3191.8,
     "medium": "Watercolor",
     "size_unframed": "40 x 30",
@@ -1154,7 +1154,7 @@
   {
     "sku": "CS350",
     "title": "Decorative Columns",
-    "price_usd": 200.0,
+    "price_usd": 200,
     "price_eur": 205.92,
     "medium": "Watercolor",
     "size_unframed": "10 x 14",
@@ -1166,7 +1166,7 @@
   {
     "sku": "CS359",
     "title": "Olive Trees at Harvest Time",
-    "price_usd": 800.0,
+    "price_usd": 800,
     "price_eur": 823.69,
     "medium": "Oil",
     "size_unframed": "20 x 16",
@@ -1178,7 +1178,7 @@
   {
     "sku": "CS362",
     "title": "Poolside in Cortona",
-    "price_usd": 600.0,
+    "price_usd": 600,
     "price_eur": 617.77,
     "medium": "Watercolor",
     "size_unframed": "15 x 22",
@@ -1190,7 +1190,7 @@
   {
     "sku": "CS372",
     "title": "Tuscan Window",
-    "price_usd": 790.0,
+    "price_usd": 790,
     "price_eur": 813.88,
     "medium": "Watercolor",
     "size_unframed": "16 x 12",
@@ -1202,7 +1202,7 @@
   {
     "sku": "CS381",
     "title": "Cypress Tree in the Field",
-    "price_usd": 800.0,
+    "price_usd": 800,
     "price_eur": 823.69,
     "medium": "Oil",
     "size_unframed": "17 x 23",
@@ -1214,7 +1214,7 @@
   {
     "sku": "CS382",
     "title": "Olive Grove",
-    "price_usd": 800.0,
+    "price_usd": 800,
     "price_eur": 823.69,
     "medium": "Oil",
     "size_unframed": "15.5 x 20",
@@ -1226,7 +1226,7 @@
   {
     "sku": "CS385",
     "title": "Little Tuscan Landscape",
-    "price_usd": 120.0,
+    "price_usd": 120,
     "price_eur": 123.55,
     "medium": "Oil",
     "size_unframed": "10 x 8",
@@ -1238,7 +1238,7 @@
   {
     "sku": "CS390",
     "title": "Olive tree at Harvest",
-    "price_usd": 800.0,
+    "price_usd": 800,
     "price_eur": 823.69,
     "medium": "Oil",
     "size_unframed": "19.75 x 15.5",
@@ -1250,7 +1250,7 @@
   {
     "sku": "CS398",
     "title": "Uomini a fare Due Chiacchiere",
-    "price_usd": 991.0,
+    "price_usd": 991,
     "price_eur": 1020.79,
     "medium": "Watercolor",
     "size_unframed": "15 x 22",
@@ -1262,7 +1262,7 @@
   {
     "sku": "CS399",
     "title": "Fountain in the Park in Cortona Italy",
-    "price_usd": 1200.0,
+    "price_usd": 1200,
     "price_eur": 1235.54,
     "medium": "Watercolor",
     "size_unframed": "26 x 20",
@@ -1274,7 +1274,7 @@
   {
     "sku": "CS451",
     "title": "Cortona Valley In Spring",
-    "price_usd": 700.0,
+    "price_usd": 700,
     "price_eur": 720.73,
     "medium": "Watercolor",
     "size_unframed": "15.5 x 19.5",
@@ -1286,7 +1286,7 @@
   {
     "sku": "CS470",
     "title": "Cortona Terrace with Flowers and Flag over looking the Valley",
-    "price_usd": 900.0,
+    "price_usd": 900,
     "price_eur": 926.65,
     "medium": "Watercolor",
     "size_unframed": "22 x 16",
@@ -1298,7 +1298,7 @@
   {
     "sku": "CS471",
     "title": "Cortona Roof Tops over looking the Valley",
-    "price_usd": 855.0,
+    "price_usd": 855,
     "price_eur": 880.56,
     "medium": "Watercolor",
     "size_unframed": "23.5 x 10.5",
@@ -1310,7 +1310,7 @@
   {
     "sku": "CS494",
     "title": "Valley with Lake",
-    "price_usd": 175.0,
+    "price_usd": 175,
     "price_eur": 180.43,
     "medium": "Watercolor",
     "size_unframed": "6 x 6",
@@ -1322,7 +1322,7 @@
   {
     "sku": "CS496",
     "title": "Onion with Cortona Ceramic Jar",
-    "price_usd": 160.0,
+    "price_usd": 160,
     "price_eur": 164.74,
     "medium": "Watercolor",
     "size_unframed": "7  x 5",
@@ -1334,7 +1334,7 @@
   {
     "sku": "CS507",
     "title": "Blue Wine Glass",
-    "price_usd": 100.0,
+    "price_usd": 100,
     "price_eur": 102.96,
     "medium": "Watercolor",
     "size_unframed": "8.5 x 5.5",
@@ -1346,7 +1346,7 @@
   {
     "sku": "CS502",
     "title": "Pink Drinking Glass",
-    "price_usd": 100.0,
+    "price_usd": 100,
     "price_eur": 102.96,
     "medium": "Watercolor",
     "size_unframed": "8.5 x 5.5",
