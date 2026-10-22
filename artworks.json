@@ -1354,5 +1354,17 @@
     "image_url": "./images/CS502.jpg",
     "product_url": "https://clarestokolosa.com/product/pink-drinking-glass/",
     "visible": "yes"
+  },
+  {
+    "sku": "CS116",
+    "title": "Watermelon, So Sweet",
+    "price_usd": 150.0,
+    "price_eur": 154.93,
+    "medium": "Watercolor",
+    "size_unframed": "5 x 7",
+    "size_framed": "7 x 9",
+    "image_url": "./images/CS116.jpg",
+    "product_url": "https://clarestokolosa.com/product/watermelon-so-sweet/",
+    "visible": "yes"
   }
 ]
